@@ -1,0 +1,23 @@
+{
+  "name": "Web Store",
+  "display": "fullscreen",
+  "start_url": "/",
+  "short_name": "Web Store",
+  "theme_color": "#683cb6",
+  "description": "Web course project gallery",
+  "orientation": "any",
+  "background_color": "#683cb6",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon_512.png",
+      "sizes": "512x512"
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "fast",
+    "simple"
+  ]
+}

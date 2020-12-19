@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Web Store</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="manifest" href="manifest.json">
+    <!-- Compiled and minified JavaScript -->
+    <script src="materialize.min.js"></script>
+  </head>
+  <body>
+
+      <nav class="purple darken-3">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Web Store</a>
+          <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down" id="pc-menu">
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-menu">
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/search">Search</a></li>
+      </ul>
+
+    <main class="container" id="content">
+   
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
