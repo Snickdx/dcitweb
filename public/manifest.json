@@ -2,7 +2,7 @@
   "name": "DCIT Web",
   "display": "DCIT Web Projects",
   "start_url": "/",
-  "short_name": "Web Store",
+  "short_name": "DCIT Web",
   "theme_color": "#6a1b9a",
   "description": "Web course project gallery",
   "orientation": "portrait",

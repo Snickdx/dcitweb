@@ -17,10 +17,14 @@ const filesToCache = [
           '/route-config.js',
           '/gallery.html',
           '/search.html',
-          '/materialize.min.js'
+          '/materialize.min.js',
+          '/dataService.js',
+          '/favicon.ico',
+          '/gallery.js',
+          '/search.js'
         ];
 
-const staticCacheName = 'store-cache-v80';
+const staticCacheName = 'store-cache-v81';
 
 importScripts('./route-config.js');
 
@@ -77,8 +81,8 @@ async function cacheFirstRequest(request){
   try{
       //requesting a page that is cached or app is online
     const cachedResponse = await checkCache(request);
-    const pathname = getPathName(request.url);
-    const routes = routeConfig.routes.map(route=>route.url);
+    // const pathname = getPathName(request.url);
+    // const routes = routeConfig.routes.map(route=>route.url);
     // console.log(routes, pathname, routes.includes(pathname));
     
     if(cachedResponse){

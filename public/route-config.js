@@ -1,5 +1,6 @@
 const routeConfig = {
-    routes:[{
+    routes:[
+      {
         url:'/gallery',
         modulePath: './gallery.js',
         base: true
