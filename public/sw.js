@@ -20,7 +20,7 @@ const filesToCache = [
           '/materialize.min.js'
         ];
 
-const staticCacheName = 'store-cache-v79';
+const staticCacheName = 'store-cache-v80';
 
 importScripts('./route-config.js');
 
