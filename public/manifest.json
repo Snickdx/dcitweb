@@ -1,12 +1,12 @@
 {
-  "name": "Web Store",
-  "display": "fullscreen",
+  "name": "DCIT Web",
+  "display": "DCIT Web Projects",
   "start_url": "/",
   "short_name": "Web Store",
-  "theme_color": "#683cb6",
+  "theme_color": "#6a1b9a",
   "description": "Web course project gallery",
-  "orientation": "any",
-  "background_color": "#683cb6",
+  "orientation": "portrait",
+  "background_color": "#6a1b9a",
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [

@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Web Store</title>
-    
+    <title>DCIT Web</title>
+    <meta name="theme-color" content="#6a1b9a">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -19,7 +19,7 @@
     <div class="navbar-fixed">
       <nav class="purple darken-3">
         <div class="nav-wrapper">
-          <a href="/" class="brand-logo">Web Store</a>
+          <a href="/" class="brand-logo">DCIT Web Projects</a>
           <a href="/" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down" id="pc-menu">
             <li><a href="/gallery">Gallery</a></li>
@@ -47,6 +47,9 @@
 
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
+    <script>
+       firebase.analytics();
+    </script>
     <script src="route-config.js"></script>
     <script type="module" src="script.js"></script>
   </body>

@@ -9,11 +9,7 @@ function appTileTemplate({id, title, category, url, group}){
         "data":"red",
     };
     return `
-    <div class="card-panel ${colors[category]} waves-effect waves-light app-tile">
-
-        <a class="white-text" target="_blank" href="${url}">${title} by ${group}</a>
-
-    </div>
+        <a class="card-panel ${colors[category]} waves-effect waves-light app-tile white-text" target="_blank" href="${url}">${title} by ${group}</a>
     `;
 }
 
