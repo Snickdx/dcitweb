@@ -10,6 +10,7 @@ const filesToCache = [
           '/script.js',
           '/manifest.json',
           '/icon_512.png',
+          '/maskable_ion.png',
           '/index.html',
           '/offline.html',
           '/404.html',
@@ -24,7 +25,7 @@ const filesToCache = [
           '/search.js'
         ];
 
-const staticCacheName = 'store-cache-v81';
+const staticCacheName = 'store-cache-v82';
 
 importScripts('./route-config.js');
 
