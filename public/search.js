@@ -25,8 +25,8 @@ function appItemTemplate({title, category, image, tags, description, url, repo }
             <i class="material-icons circle ${colors[category][0]}">${colors[category][1]}</i>
             <span class="title">${title || 'Title missing'}</span>
             <p style="text-overflow: ellipsis">${description || 'Description missing'}</p>
-            <a href="${url}" target="_blank" class="secondary-content"><i class="material-icons">launch</i></a>
-            <a href="${repo}" style="position:absolute; top: 50px; right:16px;" target="_blank"><i class="material-icons">code</i></a>
+            <a href="${url}" rel="noopener" target="_blank" class="secondary-content"><i class="material-icons">launch</i></a>
+            <a href="${repo}" rel="noopener" style="position:absolute; top: 50px; right:16px;" target="_blank"><i class="material-icons">code</i></a>
         </li>
   `;
 }

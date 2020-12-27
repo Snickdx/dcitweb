@@ -6,6 +6,7 @@
 //https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent/waitUntil
 
 const filesToCache = [
+          'robots.txt',
           '/style.css',
           '/script.js',
           '/manifest.json',
@@ -25,7 +26,7 @@ const filesToCache = [
           '/search.js'
         ];
 
-const staticCacheName = 'store-cache-v82';
+const staticCacheName = 'store-cache-v83';
 
 importScripts('./route-config.js');
 
