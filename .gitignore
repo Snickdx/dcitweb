@@ -9,6 +9,15 @@ firebase-debug.*.log*
 
 # Firebase cache
 .firebase/
+.gradle/
+
+build/
+gradle/
+app/
+android.keystore
+app-release-bundle.aab
+app-release-signed.apk
+app-release-unsigned-aligned.apk
 
 # Firebase config
 

@@ -1,0 +1,5 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target" : { "namespace": "android_app", "package_name": "app.web.dcit_web.twa",
+                   "sha256_cert_fingerprints": ["A7:4B:6D:F1:CA:4D:2B:79:96:6C:A1:37:97:A1:27:2A:57:AE:3A:A4:8F:E2:56:0D:DA:12:09:01:9F:1C:C9:E8"] }
+    }]

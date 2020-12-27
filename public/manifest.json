@@ -1,7 +1,7 @@
 {
   "name": "DCIT Web",
-  "display": "DCIT Web Projects",
-  "start_url": "/",
+  "display": "fullscreen",
+  "start_url": "/gallery",
   "short_name": "DCIT Web",
   "theme_color": "#6a1b9a",
   "description": "Web course project gallery",
