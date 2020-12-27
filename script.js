@@ -1,6 +1,4 @@
-import {navigate, handleBack} from './lib.js';
-
-window.addEventListener('popstate', e => handleBack(e, '/gallery', '#content'));
+import Router from './router.js';
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -8,25 +6,20 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+const router = new Router(routeConfig.routes, routeConfig.selector);
+
 function handleNavigation(event){
   event.preventDefault();
   event.stopPropagation();
-  const a = event.target;
-  navigate({}, a.href, '#content');
+  router.navigate(event.target.pathname);
 }
 
+
 document.addEventListener('DOMContentLoaded', function() {
-  const elems = document.querySelector('.sidenav');
-  const sidenav = M.Sidenav.init(elems);
+  
+  const sidenav = M.Sidenav.init(document.querySelector('.sidenav'));
 
-  const routes = ['/gallery', '/search'];
-
-  let route = window.location.pathname;
-
-  if(!routes.includes(route))
-    route = '/gallery'
-
-  navigate({}, route, '#content');
+  router.entryNavigate();
 
   document
     .querySelector('#mobile-menu')

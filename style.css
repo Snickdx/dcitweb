@@ -5,3 +5,24 @@ body{
 h1{
   height: 1em;
 }
+
+.app-tile{
+  height: 150px;
+  width: 150px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.app-section{
+  display: grid;
+  justify-content: left;
+  align-content: center;
+  gap: 10px;
+  grid-auto-flow: column;
+  overflow-x: scroll
+}
+
+h1{
+  font-size: 2em;
+}

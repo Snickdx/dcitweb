@@ -5,8 +5,6 @@
 //https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent/respondWith
 //https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent/waitUntil
 
-const HOSTNAME = 'https://store.snickdx.repl.co';
-
 const filesToCache = [
           '/style.css',
           '/script.js',
@@ -15,13 +13,16 @@ const filesToCache = [
           '/index.html',
           '/offline.html',
           '/404.html',
-          '/lib.js',
+          '/router.js',
+          '/route-config.js',
           '/gallery.html',
           '/search.html',
           '/materialize.min.js'
         ];
 
-const staticCacheName = 'store-cache-v34';
+const staticCacheName = 'store-cache-v75';
+
+importScripts('./route-config.js');
 
 //Setting up precaching
 self.addEventListener('install', async event => {
@@ -64,35 +65,36 @@ async function cacheResponse(url, response){
   cache.put(url, response);
 }
 
+function getPathName(url){
+  const res = url.split('/');
+  const [first, second, third, ...path] = res;
+  return `/${path}`;
+}
+
 //makes a fetch request but checks the cache first
 async function cacheFirstRequest(request){
 
   try{
       //requesting a page that is cached or app is online
     const cachedResponse = await checkCache(request);
+    const pathname = getPathName(request.url);
+    const routes = routeConfig.routes.map(route=>route.url);
+    // console.log(routes, pathname, routes.includes(pathname));
+    
     if(cachedResponse){
-    
+      // console.log('Returning cached response');
       return cachedResponse;
-    
     }else{
-      
-      const newResponse = await fetch(request);
-
-      console.log(`Request to ${request.url} reponded with ${newResponse.status}`);
-      
+      const newResponse = await fetch(request);      
       if(newResponse.status === 404){
-        let page = request.url.replace(HOSTNAME, '')+'.html';
-        // const cached = await caches.match(page);
-        // if(cached)
-        //   return cached;
-        // else
-        return caches.match(`/`);
+        // console.log('Returning index')
+        return caches.match(`index.html`);
       }else{
         const clone = await newResponse.clone();
         cacheResponse(request.url, clone);
+        // console.log('Returning new response');
         return newResponse;
       }
-      
     }
 
   }catch(e){
@@ -107,5 +109,6 @@ async function cacheFirstRequest(request){
 self.addEventListener('fetch', event => {
   // console.log('Fetch event for ', event.request.url);
   // Prevent the default, and handle the request ourselves.
+  //console.log(event.request.url);
   event.respondWith(cacheFirstRequest(event.request));
 });
