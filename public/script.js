@@ -18,6 +18,7 @@ function handleNavigation(event){
 document.addEventListener('DOMContentLoaded', function() {
   
   const sidenav = M.Sidenav.init(document.querySelector('.sidenav'));
+  const modals = M.Modal.init(document.querySelectorAll('.modal'));
 
   router.entryNavigate();
 

@@ -26,7 +26,7 @@ const filesToCache = [
           '/search.js'
         ];
 
-const staticCacheName = 'store-cache-v85';
+const staticCacheName = 'store-cache-v86';
 
 importScripts('./route-config.js');
 
