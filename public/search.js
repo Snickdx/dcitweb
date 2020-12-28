@@ -11,7 +11,7 @@ async function search(token){
     });
 }
 
-function appItemTemplate({title, category, image, tags, description, url, repo }){
+function appItemTemplate({title, category, image, tags, description, url, repo, level, course }){
     // <img src="${image}" alt="" class="circle"></img>
     const colors = {
         "social":["teal", "group"],
@@ -24,9 +24,12 @@ function appItemTemplate({title, category, image, tags, description, url, repo }
         <li class="collection-item avatar" style="padding-right:35px">
             <i class="material-icons circle ${colors[category][0]}">${colors[category][1]}</i>
             <span class="title">${title || 'Title missing'}</span>
-            <p style="text-overflow: ellipsis">${description || 'Description missing'}</p>
+            <p>
+                ${description || 'Description missing'} <br>
+            </p>
             <a href="${url}" rel="noopener" target="_blank" class="secondary-content"><i class="material-icons">launch</i></a>
             <a href="${repo}" rel="noopener" style="position:absolute; top: 50px; right:16px;" target="_blank"><i class="material-icons">code</i></a>
+              
         </li>
   `;
 }

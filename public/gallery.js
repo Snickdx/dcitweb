@@ -1,6 +1,6 @@
 import { getApps} from './dataService.js';
 
-function appTileTemplate({id, title, category, url, group}){
+function appTileTemplate({id, title, category, url, group, level, course}){
     const colors = {
         "social":"teal",
         "service":"blue",
@@ -9,7 +9,12 @@ function appTileTemplate({id, title, category, url, group}){
         "data":"red",
     };
     return `
-        <a class="card-panel ${colors[category]} waves-effect waves-light app-tile white-text" rel="noopener" target="_blank" href="${url}">${title} by ${group}</a>
+        <a class="card-panel ${colors[category]} waves-effect waves-light app-tile white-text" rel="noopener" target="_blank" href="${url}">
+            <p>${title} by ${group}</p>
+            <span style="position: absolute; font-size: 0.9 rem; bottom: 2px; z-index: 12;" data-badge-caption="${level}" class="new badge grey">Year</span>
+            <span style="position: absolute; font-size: 0.9 rem; right: 10px; bottom: 2px; z-index: 12;" data-badge-caption="${course}" class="new badge grey"></span>    
+        </a>
+        
     `;
 }
 
@@ -24,7 +29,12 @@ function renderApps(apps){
                 .map(appTileTemplate)
                 .join('');
     });
-    
+
+    document.querySelector('#featured')
+        .innerHTML = apps
+                        .filter(app=>app.featured === true)
+                        .map(appTileTemplate)
+                        .join('')
 }
 
 async function run(){
