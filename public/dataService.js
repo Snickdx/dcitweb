@@ -31,7 +31,7 @@ async function getApps(){
         "tags": "Covid-19, Virus, Visualizer, Informative, Coronavirus",
         "title": "Coronavirus Tracker",
         "description": "Single page web application that provides information and the latest statistics for the Coronavirus.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -45,7 +45,7 @@ async function getApps(){
         "tags": "API,cookie,cookies,recipe,finder,search,recipe puppy",
         "title": "Cookie Recipe Finder",
         "description": "For this project, a simple cookie recipe search application was built using a 3rd party API",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -59,7 +59,7 @@ async function getApps(){
         "tags": "Social media,node",
         "title": "Twit-Tools",
         "description": "Our app is based on twitter it allows the user to view the people that don't follow them back",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -73,7 +73,7 @@ async function getApps(){
         "tags": "geolocation",
         "title": "Family Tracking App",
         "description": "",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -87,7 +87,7 @@ async function getApps(){
         "tags": "news, info, updates",
         "title": "News Web Application",
         "description": "Web Service (News App)",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -101,7 +101,7 @@ async function getApps(){
         "tags": "Gym Routine App, Vue, Axios, localStorage, Django",
         "title": "6. Gym Routine App",
         "description": "6. Gym Routine App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -115,7 +115,7 @@ async function getApps(){
         "tags": "food, recipes, notepad, collection",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -129,7 +129,7 @@ async function getApps(){
         "tags": "Patient Doc",
         "title": "The Patient-Doctor App",
         "description": "The Patient-Doctor App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": true
@@ -143,7 +143,7 @@ async function getApps(){
         "tags": "food, recipe",
         "title": "Yummies",
         "description": "We have created a simple web service that utilises the 3rd party API package Spoonacular, that fetches the best related recipe result for any food option searched found on the web. ",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -157,7 +157,7 @@ async function getApps(){
         "tags": "CafeGuys,MCC,SimpleWebService",
         "title": "MCC",
         "description": "",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -171,7 +171,7 @@ async function getApps(){
         "tags": "calendar, responsive, event, monthly, proficient",
         "title": "Proficient Event Calendar",
         "description": "A responsive event calendar app, that can be accessed on mobile/PC devices seamlessly ",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -185,7 +185,7 @@ async function getApps(){
         "tags": "Covid-19, essential shopping, opening hours",
         "title": "COVID Alert",
         "description": "Provides information from essential business",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -199,7 +199,7 @@ async function getApps(){
         "tags": "idle, cookie, clicker, cross,platform, CHADS, info1601,project",
         "title": "Fun Multi-platform Cookie Clicker Game",
         "description": "Idle Cookie Clicker Game to benefit individuals who have limited access to electronic devices, is playable on all devices that can connect to the internet and generates cookies by clicking the cookie sprite. Has features such as automatic upgrades to levels and passive upgrades.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -213,7 +213,7 @@ async function getApps(){
         "tags": "e-commerce, gaming, action, fun, ps3, xbox, gameplay, shopping",
         "title": "Gaming World TT",
         "description": "This is a fully-responsive pseudo e-commerce website that uses AJAX via jQuery to parse and render JSON objects to the DOM.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -227,7 +227,7 @@ async function getApps(){
         "tags": "Coronavirus, COVID-19, virus",
         "title": "COVID-19 Website",
         "description": "This website was built to inform persons of the ongoing COVID-19 pandemic",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -241,7 +241,7 @@ async function getApps(){
         "tags": "gym, exercise",
         "title": "6. Gym Routine App",
         "description": "6. Gym Routine App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -255,7 +255,7 @@ async function getApps(){
         "tags": "pandemic, corona, COVID19, virus, spread, corona updates, tracker",
         "title": "COVID-19 TRACKER",
         "description": "Our application tracks and updates the user in real-time the spread of the pandemic COVID-19 globally.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -269,7 +269,7 @@ async function getApps(){
         "tags": "Social Media, Music",
         "title": "Moosic Social",
         "description": "A Social Media Web Application targeted towards musicians to share their posts/projects etc.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -283,7 +283,7 @@ async function getApps(){
         "tags": "games, league of legends, nautilus, esports",
         "title": "Summoner Search",
         "description": "Lets users search for League of Legends usernames and shows their profile icon, level, and name.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -297,7 +297,7 @@ async function getApps(){
         "tags": "Konnect,Konectifi,Konnectify,connect",
         "title": "Konnectifi",
         "description": "Allows person to save post ideas and general ideas for later review and post to facebook if they want .",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -311,7 +311,7 @@ async function getApps(){
         "tags": "tutor, claims",
         "title": "3. Tutor Claims App",
         "description": "3. Tutor Claims App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -325,7 +325,7 @@ async function getApps(){
         "tags": "exercise, routine, gym, ",
         "title": "6. Gym Routine App",
         "description": "6. Gym Routine App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": true
@@ -339,7 +339,7 @@ async function getApps(){
         "tags": "",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -353,7 +353,7 @@ async function getApps(){
         "tags": "gym, gainz",
         "title": "A blog style web app for gym and fitness enthusiasts to be able to search for and share great workout and routines among each other.",
         "description": "A blog style web app for gym and fitness enthusiasts to be able to search for and share great workout and routines among each other.",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -367,7 +367,7 @@ async function getApps(){
         "tags": "Vegan, vegetarian, drinks, recipes, desserts, search",
         "title": "What's Cooking",
         "description": "What's Cooking is a recipe search application that allows the user to search for all, vegan, vegetarian, drink or dessert recipes and also allows the user to search for recipes based on the ingredients that they have. ",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -381,7 +381,7 @@ async function getApps(){
         "tags": "food, meal, planners",
         "title": "Application that allows users to search and find a particular recipe.",
         "description": "Application that allows users to search and find a particular recipe.",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -395,7 +395,7 @@ async function getApps(){
         "tags": "food",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -409,7 +409,7 @@ async function getApps(){
         "tags": "groceryList,grocerylistgenerator",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -423,7 +423,7 @@ async function getApps(){
         "tags": "web, gym ",
         "title": "6. Gym Routine App",
         "description": "6. Gym Routine App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -437,7 +437,7 @@ async function getApps(){
         "tags": "speech recognition, geolocation, weather",
         "title": "Speech Weather",
         "description": "",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -451,7 +451,7 @@ async function getApps(){
         "tags": "anime, TV shows, explore, entertainment, search",
         "title": "Anime Catalogue",
         "description": "An easy to use web application that allows users to search for and discover the latest and most top rated anime titles.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -465,7 +465,7 @@ async function getApps(){
         "tags": "",
         "title": "4. Club Elections App",
         "description": "4. Club Elections App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -479,7 +479,7 @@ async function getApps(){
         "tags": "food, shop, vue, firebase, youtube, recipe, list",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -493,7 +493,7 @@ async function getApps(){
         "tags": "",
         "title": "6. Gym Routine App",
         "description": "6. Gym Routine App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -507,7 +507,7 @@ async function getApps(){
         "tags": "food, recipes, college, crave",
         "title": "College Crave",
         "description": "College Crave is a web-based application designed for busy college students who want quick and easy recipes on any food of their choosing. It consists of 4 webpages: StartUp Page, HomePage, Recipe Page, and Login Page which is simple to use and easy to understand. ",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -521,7 +521,7 @@ async function getApps(){
         "tags": "Project Bloodline, Blood Donation, Appointment, Health",
         "title": "Project Bloodline",
         "description": "Blood Donation App - A Web Application which serves to essentially sensitize and encourage users to donate blood.",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": true
@@ -535,7 +535,7 @@ async function getApps(){
         "tags": "chatter, post.it!",
         "title": "Post.It!",
         "description": "Social Media Client that allows a user to login and create posts on the website and can other features on the website to play games, go to other desired websites or view random pictures.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -549,7 +549,7 @@ async function getApps(){
         "tags": "Internet Traffic, Tyrese Lake, Fazeeia Mohammed, Josiah Jones, Roganci Fontelera, RaterGator, Web Project ",
         "title": "A UWI Instrcutor Rating Website called RaterGator",
         "description": "A UWI Instrcutor Rating Website called RaterGator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": true
@@ -563,7 +563,7 @@ async function getApps(){
         "tags": "weather, realtime, climate",
         "title": "Global Weather",
         "description": "The website we created is a data visualization global weather and climate website based on global real time and statistical data. It has a real time weather application and it displays graphs based on global climate and weather data.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -577,7 +577,7 @@ async function getApps(){
         "tags": "AFTR MARKT, Storefront, E-commerce",
         "title": "Storefront / E-Commerce Web Application ",
         "description": "Storefront / E-Commerce Web Application ",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -591,7 +591,7 @@ async function getApps(){
         "tags": "",
         "title": "Coronavirus Updates Tracker",
         "description": "The purpose of this web application is to allow users to select any country from around the world and provide them with the latest statistical figures.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -605,7 +605,7 @@ async function getApps(){
         "tags": "",
         "title": "Champion Abilites",
         "description": "The google drive link was submitted in order to serve as a backup for the github url as it is missing a file that could not be uploaded because it was saying hidden, a file that may affect the overall look of the webpage, the missing file's name is .git and the file in the googledrive link is please-work which is the folder with everything for the webpage.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -619,7 +619,7 @@ async function getApps(){
         "tags": "football, footballnews",
         "title": "League Team 6ix",
         "description": "Football site that displays the current table/standings for two main leagues along with real time news updates with option to search news by entering any team name",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -633,7 +633,7 @@ async function getApps(){
         "tags": "gym routine",
         "title": "6. Gym Routine App",
         "description": "6. Gym Routine App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -647,7 +647,7 @@ async function getApps(){
         "tags": "Grocery List, Food Findr, Lasagna",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -661,7 +661,7 @@ async function getApps(){
         "tags": "",
         "title": "PRIVATE MSG",
         "description": "A simple instant messaging app where users can login and chat with each other in real time.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -675,7 +675,7 @@ async function getApps(){
         "tags": "",
         "title": "DHAMMA TAO",
         "description": "Martial Arts Dojo website",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -689,7 +689,7 @@ async function getApps(){
         "tags": "Hearthstone,cardgame,deck builder",
         "title": "The HearthStone Helper",
         "description": "To aid the players of the popular card game Hearthstone.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -703,7 +703,7 @@ async function getApps(){
         "tags": "",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -717,7 +717,7 @@ async function getApps(){
         "tags": "vote,election,club,nypson",
         "title": "4. Club Elections App",
         "description": "4. Club Elections App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -731,7 +731,7 @@ async function getApps(){
         "tags": "PROJECT DREAMS, AniSoul, anime, manga",
         "title": "AniSoul",
         "description": "Used 3rd party api to display text sentiment analysis of Animes, Mangas, etc.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -745,7 +745,7 @@ async function getApps(){
         "tags": "music, playlist, deezer, youtube",
         "title": "Music Application",
         "description": "Music Application",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": true
@@ -759,7 +759,7 @@ async function getApps(){
         "tags": "weather",
         "title": "Weather App",
         "description": "This app allows the user to enter their location and get data on the type of weather occurring presently",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -773,7 +773,7 @@ async function getApps(){
         "tags": "SARS",
         "title": "SARS",
         "description": "It was created for like-minded persons so that they can gather to communicate their thoughts and ideas through posts.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -787,7 +787,7 @@ async function getApps(){
         "tags": "Marvel, superhero, comics, search, profile",
         "title": "Get Schwifty",
         "description": "App allows you to search for a hero or a comic. A list of heroes or comics matching the search term is displayed. Any individual hero or comic may be clicked to display a detailed profile.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -801,7 +801,7 @@ async function getApps(){
         "tags": "Weather, App",
         "title": "Weather App ",
         "description": "Weather App ",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -815,7 +815,7 @@ async function getApps(){
         "tags": "pictures, posts, messaging, SoNet",
         "title": "So Net",
         "description": "This website is a social media client where users can post messages and images for other user to see and interact with.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -829,7 +829,7 @@ async function getApps(){
         "tags": "Weather,App,Geo location,Weather app,Weather Search",
         "title": "Weather App",
         "description": "",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -843,7 +843,7 @@ async function getApps(){
         "tags": "Art, Trinidad culture, digital art",
         "title": "Tart (Trinidad Art)",
         "description": "A website that allows for discussion of local Trinidad Art",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -857,7 +857,7 @@ async function getApps(){
         "tags": "Recipes, Food",
         "title": "Tasty Recipes",
         "description": "Main functionality of the web application is the ability to search for recipes. ",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -871,7 +871,7 @@ async function getApps(){
         "tags": "firebase, realtime-database, chatroom",
         "title": "Rocket Chat",
         "description": "Online chat room",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -885,7 +885,7 @@ async function getApps(){
         "tags": "Tech, Squad, Deli, App",
         "title": "Deli Recipe App",
         "description": "Deli is a recipe app created to make recipes easily available for users online rather than a traditional cook book.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -899,7 +899,7 @@ async function getApps(){
         "tags": "Location based thingy",
         "title": "Trackstars",
         "description": "Trackstars is an application that uses Goggle Map`s API to track the location of a user and share or track their friends location.",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -913,7 +913,7 @@ async function getApps(){
         "tags": "",
         "title": "Online Book repository",
         "description": "Online Book repository",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -927,7 +927,7 @@ async function getApps(){
         "tags": "food, search, engine, recipe, health, bible",
         "title": "The Food Bible",
         "description": "Recipe Search Engine",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": true
@@ -941,7 +941,7 @@ async function getApps(){
         "tags": "",
         "title": "An online recipe application ",
         "description": "An online recipe application ",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -955,7 +955,7 @@ async function getApps(){
         "tags": "Gym , Uwi, App",
         "title": "6. Gym Routine App",
         "description": "6. Gym Routine App",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": null
@@ -969,7 +969,7 @@ async function getApps(){
         "tags": "",
         "title": "VC_POSTS",
         "description": "This app is a text-based application that makes use of Facebook graph API and a quotes API. It should allow users to ‘view’ their latest Facebook posts, ‘create’ new posts and ‘share’ quotes to their timeline\n",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -983,7 +983,7 @@ async function getApps(){
         "tags": "Weather, Hurricane, Flood, Tornado, Disaster, US",
         "title": "US Disaster Data Visualizer ",
         "description": "This App takes the data of the number Disasters in the US and places it in a Graphical format",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null
@@ -997,7 +997,7 @@ async function getApps(){
         "tags": "",
         "title": "8. Grocery List Generator",
         "description": "8. Grocery List Generator",
-        "year": 2019,
+        "year": 2020,
         "level": 2,
         "course": "INFO 2602",
         "featured": true
@@ -1011,7 +1011,7 @@ async function getApps(){
         "tags": "",
         "title": "XDJ COVID-19 Tracker",
         "description": "Takes data from an API and displays it on the app and also gives information about the virus",
-        "year": 2019,
+        "year": 2020,
         "level": 1,
         "course": "INFO 1601",
         "featured": null

@@ -3,8 +3,7 @@ export default class Router {
   constructor(routes, selector){
 
     this.routes = this.loadRoutes(routes);
-    this.baseRoute = routes
-                      .filter(route=>"base" in route)[0];
+    this.baseRoute = routes.filter(route=>"base" in route)[0];
     
     if(this.baseRoute === undefined)
       throw 'No base route error';
@@ -61,11 +60,9 @@ export default class Router {
   }
 
   handleBack(event){
-    console.log(window.history);
     if(event.state === null){
       this.navigate(this.homeURL);
     }else{
-      console.log('going back to'+ event.state.url);
       this.navigate(event.state.url);  
     }
   }
