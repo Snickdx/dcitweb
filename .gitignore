@@ -7,6 +7,19 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
+labs.json
+
+/labs/*
+
+!/labs/icon-192x192.png
+!/labs/icon-256x256.png
+!/labs/icon-384x384.png
+!/labs/icon-512x512.png
+!/labs/index.html
+!/labs/manifest.json
+!/labs/favicon.ico
+
+
 # Firebase cache
 .firebase/
 .gradle/

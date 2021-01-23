@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "dcit-web"
+  },
+  "targets": {
+    "dcit-web": {
+      "hosting": {
+        "labs": [
+          "weblabs"
+        ],
+        "gallery": [
+          "dcit-web"
+        ]
+      }
+    }
   }
 }
