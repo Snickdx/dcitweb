@@ -31,11 +31,12 @@ function appItemTemplate({title, category, image, tags, description, url, repo, 
                 Level: ${level}
             </p>
             <a href="${url}" rel="noopener" target="_blank" class="secondary-content"><i class="material-icons">launch</i></a>
-            <a href="${repo}" rel="noopener" style="position:absolute; top: 50px; right:16px;" target="_blank"><i class="material-icons">code</i></a>
               
         </li>
   `;
 }
+
+{/* <a href="${repo}" rel="noopener" style="position:absolute; top: 50px; right:16px;" target="_blank"><i class="material-icons">code</i></a> */}
 
 async function run(){
     const searchText = document.querySelector('#search');
