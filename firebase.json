@@ -22,7 +22,7 @@
         "firebase.json",
         "**/.*",
         "**/node_modules/**"
-      ] 
+      ]
     }
   ],
   "emulators": {
