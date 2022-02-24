@@ -1,10 +1,10 @@
 import Router from './router.js';
 
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js');
-  });
-}
+// if ('serviceWorker' in navigator) {
+//   window.addEventListener('load', function() {
+//     navigator.serviceWorker.register('/sw.js');
+//   });
+// }
 
 const router = new Router(routeConfig.routes, routeConfig.selector);
 
@@ -13,6 +13,7 @@ function handleNavigation(event){
   event.stopPropagation();
   router.navigate(event.target.pathname);
 }
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
