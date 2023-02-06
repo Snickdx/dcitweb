@@ -7,6 +7,7 @@
     "serve:labs": "firebase serve --only hosting:labs",
     "serve:gallery": "firebase serve --only hosting:gallery",
     "build": "node build.js",
+    "build-sw": "workbox generateSW workbox-config.js",
     "deploy": "firebase deploy --only hosting:labs"
   },
   "repository": {

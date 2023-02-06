@@ -16,6 +16,13 @@
       ]
     },
     {
+      "headers": [ {
+        "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css|json)",
+        "headers": [ {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        } ]
+      } ],
       "public": "labs",
       "target": "labs",
       "ignore": [
